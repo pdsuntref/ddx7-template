@@ -26,6 +26,9 @@ El orden de las tareas que deberían llevar a cabo es:
 
 - Escriban el informe, dándole especial atención al análisis de los resultados obtenidos en las distintas pruebas que realicen.
 
+## Recomendaciones
+- Si trabajan con Git y GitHub, tengan cuidado con las cosas que trackean. Por ejemplo con los datasets. Para evitar que Git "vea" a los datasets, deben agregar esas carpetas al archivo `.gitignore`. Git y GitHub son para tracker cambios en el código, no en los datos. GitHub no está pensado para ser un servicio de almacenamiento de datos en la nube, está pensado para almacenar repositorios de Git.
+
 ## Datasets
 - [Dataset_URMP](https://drive.google.com/drive/folders/1tu5-rpUMGE9BfsPXGD80qV_xPPueaxy1) (para probar que las funciones que implementaron se ejecutan correctamente)
 - [dataset_full](https://drive.google.com/drive/folders/1NSMF7oC5T0zei1AnticsQKJR1LXO5ApS) (para entrenar el modelo final)
