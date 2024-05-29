@@ -7,7 +7,7 @@ El orden de las tareas que deberían llevar a cabo es:
 - A partir del archivo `requirements.txt` incluido en el esqueleto, generar un entorno de [conda](https://docs.conda.io/en/latest/) para poder tener instaladas las librerías necesarias para el trabajo. Si llegan a necesitar otras librerías, avisen. Esto lo pueden hacer con el comando 
 
     ```bash
-    conda install –file requirements.txt
+    conda install --file requirements.txt
     ```
 
 - Dentro del repositorio que les pasamos, copien la carpeta `Dataset_URMP`.
